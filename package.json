@@ -3,15 +3,36 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "author": "Nick Burdo",
+  "license": "ISC",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ],
+    "debug": true
+  },
+  "babelify": {
+    "presets": [
+      "react"
+    ]
+  },
   "scripts": {
+    "br": "browserify src/js/app.js -o public/js/app.js -d",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server & gulp",
     "build": "NODE_ENV=production gulp build"
   },
-  "author": "Nick Burdo",
-  "license": "ISC",
   "devDependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "del": "^2.2.0",
     "gulp": "^3.9.1",
-    "http-server": "^0.9.0"
-  }
+    "gulp-concat-multi": "^1.0.0",
+    "http-server": "^0.9.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {}
 }
