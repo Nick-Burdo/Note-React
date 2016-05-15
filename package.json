@@ -28,11 +28,21 @@
     "browserify": "^13.0.1",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
-    "gulp-concat-multi": "^1.0.0",
     "http-server": "^0.9.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
-    "require-dir": "~0.3.0"
+    "require-dir": "~0.3.0",
+    "vinyl-source-stream": "~1.1.0",
+    "gulp-sass": "~2.3.1",
+    "gulp-autoprefixer": "~3.1.0",
+    "gulp-sourcemaps": "~1.6.0",
+    "promise": "~7.1.1",
+    "promise-es6": "~0.1.0",
+    "gulp-rename": "~1.2.2",
+    "gulp-csso": "~2.0.0",
+    "gulp-file": "~0.3.0",
+    "gulp-if": "~2.0.1",
+    "gulp-concat": "~2.6.0"
   },
   "dependencies": {}
 }

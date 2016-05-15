@@ -4,7 +4,6 @@
  * @version  13.05.2016
  * @since
  */
-var React = require('react');
 
 module.exports = React.createClass({
     render: function () {

@@ -3,6 +3,8 @@
  */
 'use strict';
 
+require('promise-es6').install();
+
 var requireDir = require('require-dir');
 
 global.devBuild = process.env.NODE_ENV !== 'production';
