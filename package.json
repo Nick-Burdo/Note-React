@@ -17,10 +17,12 @@
     ]
   },
   "scripts": {
-    "prod": "NODE_ENV=production gulp",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=development http-server & gulp",
-    "build": "NODE_ENV=production gulp build"
+    "win-server": "http-server",
+    "win-dev": "set NODE_ENV=development && gulp",
+    "build": "NODE_ENV=production gulp build",
+    "win-build": "set NODE_ENV=production && gulp build"
   },
   "devDependencies": {
     "babel-preset-react": "^6.5.0",
